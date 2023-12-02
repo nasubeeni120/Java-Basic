@@ -10,6 +10,7 @@ public class Main {
 	
 //		Food[] refrigerator = new Food[3];
 		
+		//피자라는 string name객체가 된다. 
 		Food food1 = new Food("pizza");
 		Food food2 = new Food("hamburger");
 		Food food3 = new Food("hotdog");
@@ -23,5 +24,6 @@ public class Main {
 		System.out.println(refrigerator[0].name);
 		System.out.println(refrigerator[1].name);
 		System.out.println(refrigerator[2].name);
+		System.out.println(food1.getName());
 	}
 }
