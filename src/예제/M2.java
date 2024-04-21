@@ -28,9 +28,9 @@ class B extends A {
     B(int x) {
         this.x = x;
     }
-//    int getX() {
-//        return x;
-//    }
+    int getX() {
+        return x;
+    }
 }
 
 public class M2 {
