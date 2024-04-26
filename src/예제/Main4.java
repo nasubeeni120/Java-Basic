@@ -9,21 +9,17 @@ class N {
 
     public N(int a) {
         this.a = a;
-
-
-    }
+     }
 
     public void display() {
         System.out.println("a=" + a);
         this.a = 1000;
     }
-
 }
 
 class M extends N {
     public M() {
         System.out.println("M");
-
     }
 
     public M(int a) {
