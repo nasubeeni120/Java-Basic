@@ -24,6 +24,7 @@ class C extends P {
         System.out.println("E");
     }
 
+
 }
 
 public class 상속 {
